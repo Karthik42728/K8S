@@ -17,4 +17,4 @@ jobs:
       - name: Verify docker image
         run: docker images
       - name: Push docker image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/kubernetes-app:7
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/kubernetes-app:7 
